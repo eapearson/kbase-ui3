@@ -1,0 +1,10 @@
+{
+    "name": "kbase-ui-crats",
+    "version": "0.1.0",
+    "main": "index.js",
+    "author": "Erik Pearson <eapearson@lbl.gov>",
+    "license": "MIT",
+    "dependencies": {
+        "typescript": "3.8.3"
+    }
+}

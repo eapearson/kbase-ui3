@@ -1,0 +1,32 @@
+@import "../../styles.less";
+
+.Layout {
+    &:extend(.flex-col);
+    flex: 1 1 0px;
+}
+
+.Layout-header {
+    &:extend(.flex-row);
+    flex: 0 0 auto;
+}
+
+.Layout-content {
+    &:extend(.flex-row);
+    flex: 1 1 0px;
+}
+
+.Layout-sidebar {
+    &:extend(.flex-col);
+    flex: 0 0 100px;
+    overflow: auto;
+}
+
+.Layout-sidebar-no-labels {
+    flex-basis: 65px;
+}
+
+.Layout-body {
+    &:extend(.flex-col);
+    flex: 1 1 0px;
+    padding: 10px;
+}
